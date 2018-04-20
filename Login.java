@@ -48,8 +48,6 @@ public class Login extends JFrame {
 				pf.setText("");
 				
 			}
-			
-			
 		});
 
 		b = new JButton("LOGIN");
@@ -63,12 +61,10 @@ public class Login extends JFrame {
 					JOptionPane.showMessageDialog(null, "Wellcome!!");
 				} else {
 					JOptionPane.showMessageDialog(null,
-							"Wrong user or password ! ");
+					"Wrong user or password ! ");
 
 				}
-
 			}
-
 		});
 		c = this.getContentPane();
 		c.setBackground(Color.ORANGE);
